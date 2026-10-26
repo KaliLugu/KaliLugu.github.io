@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Atelier Octet</title>
+  <meta name="description" content="Développement web et logiciel, réparation d'appareils, custom, modification de consoles et montage de PC sur mesure.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="beta"><b>VERSION BETA</b> · textes, tarifs et projets sont des exemples à remplacer par les vôtres.</div>
+
+  <header class="top">
+    <a class="brand" href="#top" id="top">
+      <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true">
+        <rect x="2" y="2" width="26" height="26" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/>
+        <path d="M8 15h5l3-5 3 10 3-5h2" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Atelier Octet
+    </a>
+    <nav class="main" aria-label="Navigation principale">
+      <a href="#services">Services</a>
+      <a href="#reparation">Réparation</a>
+      <a href="#custom">Custom &amp; modification</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div>
+      <p class="mono eyebrow">Développement · Réparation · Sur-mesure</p>
+      <h1><span>Je code.</span><span>Je répare.</span><span class="hl">Je construis.</span></h1>
+      <p class="lead">Un seul interlocuteur pour vos projets web et logiciels, la remise en état de vos appareils, et vos machines montées ou personnalisées à la main.</p>
+      <div class="cta">
+        <a class="btn" href="#contact">Demander un devis</a>
+        <a class="btn ghost" href="#portfolio">Voir les réalisations</a>
+      </div>
+    </div>
+
+    <aside class="ticket" aria-label="Exemple de fiche d'atelier">
+      <header>
+        <span class="mono">Fiche d'atelier</span>
+        <span class="mono">Exemple</span>
+      </header>
+      <ul>
+        <li>
+          <span class="ref">DEV</span>
+          <span class="what"><strong>Site vitrine + espace client</strong><small>Maquette validée, intégration en cours</small></span>
+          <span class="status">En cours</span>
+        </li>
+        <li>
+          <span class="ref">REP</span>
+          <span class="what"><strong>Console : plus d'image en HDMI</strong><small>Diagnostic fait, port à remplacer</small></span>
+          <span class="status">Devis</span>
+        </li>
+        <li>
+          <span class="ref">PC</span>
+          <span class="what"><strong>Tour gaming 1440p</strong><small>Composants reçus, montage et tests</small></span>
+          <span class="status">Montage</span>
+        </li>
+      </ul>
+    </aside>
+  </div>
+
+  <section id="services">
+    <div class="sec-head">
+      <p class="mono">Ce que je fais</p>
+      <h2>Trois métiers, une même exigence.</h2>
+      <p>Que ce soit du code, un fer à souder ou un tournevis, la méthode reste la même : comprendre le besoin, proposer un prix clair, livrer un travail testé.</p>
+    </div>
+    <div class="services">
+      <article class="svc">
+        <h3>Développement</h3>
+        <p>Des outils et des sites qui servent vraiment, simples à utiliser et à faire évoluer.</p>
+        <ul>
+          <li>Sites vitrines et boutiques en ligne</li>
+          <li>Applications web et mobiles</li>
+          <li>Logiciels et applications PC (Windows, Linux, macOS)</li>
+          <li>Scripts, bots et automatisation</li>
+          <li>Reprise et correction de code existant</li>
+        </ul>
+        <div class="foot"><span class="price">dès 300 € (exemple)</span><a class="more" href="#contact">Parler de mon projet →</a></div>
+      </article>
+      <article class="svc">
+        <h3>Réparation</h3>
+        <p>Consoles, manettes, PC et autres appareils remis en état, avec un diagnostic expliqué.</p>
+        <ul>
+          <li>Consoles de salon, portables et rétro</li>
+          <li>Manettes (stick qui dérive, boutons)</li>
+          <li>PC fixes et portables</li>
+          <li>Nettoyage, pâte thermique, ports, batteries</li>
+        </ul>
+        <div class="foot"><span class="price">diagnostic offert (exemple)</span><a class="more" href="#reparation">Voir le déroulé →</a></div>
+      </article>
+      <article class="svc">
+        <h3>Custom, modification &amp; PC</h3>
+        <p>Des machines construites selon votre usage, et des consoles qui ne ressemblent à aucune autre.</p>
+        <ul>
+          <li>Montage de PC sur mesure</li>
+          <li>Coques, LEDs, boutons, peintures</li>
+          <li>Restauration et écrans rétro</li>
+          <li>Modifications et upgrades : SSD, mémoire, refroidissement</li>
+        </ul>
+        <div class="foot"><span class="price">dès 80 € (exemple)</span><a class="more" href="#custom">Voir les options →</a></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="reparation">
+    <div class="sec-head">
+      <p class="mono">Réparation</p>
+      <h2>Un appareil en panne, un parcours clair.</h2>
+      <p>Vous savez où en est votre appareil et ce que ça coûte avant que je change la moindre pièce.</p>
+    </div>
+    <div class="split">
+      <div>
+        <h3>Appareils pris en charge</h3>
+        <ul class="chips">
+          <li>PlayStation</li><li>Xbox</li><li>Nintendo Switch</li><li>Consoles portables</li>
+          <li>Rétro (Game Boy, SNES, Mega Drive…)</li><li>Manettes</li><li>PC fixes</li><li>PC portables</li>
+        </ul>
+        <div class="note">Pannes fréquentes : plus d'image, surchauffe, bruit de ventilateur, port de charge ou HDMI défaillant, batterie gonflée, stick qui dérive.</div>
+      </div>
+      <div>
+        <h3>Déroulé d'une réparation</h3>
+        <ol class="steps">
+          <li><div><b>Prise de contact</b><span>Vous décrivez la panne, avec des photos si possible.</span></div></li>
+          <li><div><b>Diagnostic</b><span>Je teste l'appareil et j'identifie la cause réelle.</span></div></li>
+          <li><div><b>Devis</b><span>Prix et délai annoncés. Rien n'est fait sans votre accord.</span></div></li>
+          <li><div><b>Réparation et tests</b><span>Intervention, puis essai prolongé de l'appareil.</span></div></li>
+          <li><div><b>Retour</b><span>Remise en main propre ou envoi, avec garantie sur la pièce et la main-d'œuvre.</span></div></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section id="custom">
+    <div class="sec-head">
+      <p class="mono">Custom, modification &amp; montage PC</p>
+      <h2>Montée pour votre usage, pas pour une fiche produit.</h2>
+      <p>Je choisis les composants selon ce que vous faites vraiment de la machine, puis je m'occupe du montage, du câblage et des tests de stabilité.</p>
+    </div>
+    <div class="split">
+      <div>
+        <h3>Consoles : custom et modification</h3>
+        <ul class="chips">
+          <li>Coques translucides ou peintes</li><li>LEDs et rétroéclairage</li><li>Boutons et sticks sur mesure</li>
+          <li>Écrans IPS pour portables rétro</li><li>Restauration de consoles jaunies</li><li>Modifications matérielles (USB-C, refroidissement, batterie)</li>
+        </ul>
+      </div>
+      <div class="note">Je travaille sur l'esthétique, la restauration et l'amélioration du matériel. Je ne propose pas de modification destinée à contourner les protections pour jouer à des copies.</div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="sec-head">
+      <p class="mono">Portfolio</p>
+      <h2>Quelques réalisations.</h2>
+      <p>Filtrez par type de travail. Les vignettes ci-dessous sont des emplacements d'exemple, à remplacer par vos photos et captures.</p>
+    </div>
+    <div class="filters" role="group" aria-label="Filtrer les réalisations">
+      <button type="button" data-filter="all" aria-pressed="true">Tout</button>
+      <button type="button" data-filter="dev" aria-pressed="false">Développement</button>
+      <button type="button" data-filter="rep" aria-pressed="false">Réparation</button>
+      <button type="button" data-filter="custom" aria-pressed="false">Custom &amp; modification</button>
+    </div>
+    <div class="grid" id="grid">
+      <article class="proj" data-cat="dev"><div class="ph mono"><span>Capture à venir</span></div><div class="body"><p class="mono">Développement</p><h3>Suivi de stock pour un atelier</h3><p>Application web avec scan de codes-barres et alertes de rupture.</p></div></article>
+      <article class="proj" data-cat="dev"><div class="ph mono"><span>Capture à venir</span></div><div class="body"><p class="mono">Application PC</p><h3>Logiciel de gestion</h3><p>Application de bureau avec base locale, export PDF et installateur.</p></div></article>
+      <article class="proj" data-cat="rep"><div class="ph mono"><span>Avant / après à venir</span></div><div class="body"><p class="mono">Réparation</p><h3>Console : port HDMI remplacé</h3><p>Retour de l'image, tests de charge sur plusieurs heures.</p></div></article>
+      <article class="proj" data-cat="rep"><div class="ph mono"><span>Avant / après à venir</span></div><div class="body"><p class="mono">Réparation</p><h3>Manette : sticks remplacés</h3><p>Fin de la dérive, boutons nettoyés et recalibrés.</p></div></article>
+      <article class="proj" data-cat="custom"><div class="ph mono"><span>Photo à venir</span></div><div class="body"><p class="mono">Custom</p><h3>Portable rétro, écran IPS</h3><p>Nouvelle coque, écran lumineux et batterie neuve.</p></div></article>
+      <article class="proj" data-cat="custom"><div class="ph mono"><span>Photo à venir</span></div><div class="body"><p class="mono">Custom</p><h3>Console à coque translucide</h3><p>Éclairage LED discret et boutons assortis.</p></div></article>
+    </div>
+  </section>
+
+  <section id="apropos">
+    <div class="sec-head">
+      <p class="mono">À propos</p>
+      <h2>Qui est derrière l'atelier.</h2>
+    </div>
+    <div class="about">
+      <div>
+        <p>Je suis passionné par ce qui fonctionne bien de l'intérieur : un programme propre, une soudure nette, un PC qui reste silencieux en pleine charge.</p>
+        <p>Ce texte est un emplacement : racontez ici votre parcours, ce qui vous a amené à ces trois activités et ce que vos clients retiennent de votre façon de travailler.</p>
+      </div>
+      <dl class="facts">
+        <div><dt>Zone</dt><dd>Île-de-France (à confirmer)</dd></div>
+        <div><dt>Remise</dt><dd>Main propre ou envoi colis</dd></div>
+        <div><dt>Garantie réparation</dt><dd>3 mois (exemple)</dd></div>
+        <div><dt>Réponse</dt><dd>Sous 24 h</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <div>
+        <p class="mono eyebrow">Contact</p>
+        <h2>Parlons de votre projet ou de votre appareil.</h2>
+        <ul>
+          <li><b>Email :</b> contact@exemple.fr</li>
+          <li><b>Délai de réponse :</b> sous 24 h</li>
+          <li><b>Pour une réparation :</b> indiquez le modèle et joignez des photos.</li>
+        </ul>
+      </div>
+      <form id="form" novalidate>
+        <div class="row">
+          <label for="f-name">Nom<input id="f-name" name="name" type="text" autocomplete="name" placeholder="Votre nom"></label>
+          <label for="f-mail">Email<input id="f-mail" name="mail" type="email" autocomplete="email" placeholder="vous@exemple.fr"></label>
+        </div>
+        <label for="f-type">Type de demande
+          <select id="f-type" name="type">
+            <option value="Développement">Développement</option>
+            <option value="Réparation">Réparation</option>
+            <option value="Custom ou montage PC">Custom ou montage PC</option>
+            <option value="Autre">Autre</option>
+          </select>
+        </label>
+        <label for="f-msg">Votre message<textarea id="f-msg" name="msg" placeholder="Décrivez votre besoin, le modèle de l'appareil ou le budget visé."></textarea></label>
+        <button class="btn" type="submit">Préparer mon message</button>
+        <div id="result" aria-live="polite">
+          <p class="mono">Message prêt</p>
+          <pre id="out"></pre>
+          <p class="hint">Dans cette beta, le formulaire n'envoie rien. Dans la version finale, il sera relié à votre boîte mail.</p>
+          <button class="btn ghost" type="button" id="copy">Copier le message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <span>© Atelier Octet · nom provisoire</span>
+    <span>Mentions légales · Conditions de service (à rédiger)</span>
+  </footer>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
